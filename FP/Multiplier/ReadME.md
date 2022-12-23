@@ -8,7 +8,7 @@
 ### X.XXXX * X.XXXX = XX.XXXXXXXX (before normalization)
 
 ## Exponent Representation
-|encoded Exponent |	Case	       |binray representation     | exponent binary value |
+|encoded Exponent |	Case	       |binray value     | exponent binary value |
 | ---     | ---          | ---         |  ---   |
 |000	    |	denormalized | 0.XXXX 2^-2 | 	110   |
 |001    	|	normalized   | 1.XXXX 2^-2 |	110   |
@@ -17,8 +17,8 @@
 |100	    |	normalized   | 1.XXXX 2^1	 |	001   |
 |101      | normalized   | 1.XXXX 2^2	 |	010   |
 |110	    |	normalized   | 1.XXXX 2^3	 |	011   |
-|111	    |	----         | 1.0000      |  Inf   |
-|111	    |	------	     | 1.XXXX      |  NAN   |
+|111	    |	----         | 1.0000 Inf  |  ---   |
+|111	    |	------	     | 1.XXXX NaN  |  ---   |
 
 
 
