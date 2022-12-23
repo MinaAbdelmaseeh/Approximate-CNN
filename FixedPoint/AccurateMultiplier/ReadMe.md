@@ -1,4 +1,4 @@
-# accurate Multiplier
+# Accurate Multiplier
 ### This folder includes 3 main vhdl codes which represent the implementations of:
 ##### 1- A full adder
 ##### 2- A half adder
