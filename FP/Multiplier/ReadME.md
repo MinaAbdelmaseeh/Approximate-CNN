@@ -1,13 +1,13 @@
 # 8-bit Floating Point Multiplyer
-# FLoating Point Representation : 
+## FLoating Point Representation : 
 |Sign          |       Mantissa        |   exponent |
 | ---          |        ---            |     ---    |
 |1b            |         4b            |     3b     |
 
-# Multiplying 2 floating point numbers:
+## Multiplying 2 floating point numbers:
 ### X.XXXX * X.XXXX = XX.XXXXXXXX (before normalization)
 
-# Exponent Representation
+## Exponent Representation
 |Exponent |	Case	       |Exponent     | binary |
 | ---     | ---          | ---         |  ---   |
 |000	    |	denormalized | 0.XXXX 2^-2 | 	110   |
@@ -22,7 +22,7 @@
 
 
 
-# Test Cases : 
+## Test Cases : 
 #### 00000000 * 00000000 = 0*0 = 0
 #### 00001000 * 00001000 = 0.0001*0.0001 = 00.00000001 === 000000000
 #### 00000110 * 00000011 = 1.00 2^3 * 1.00 2^0 = 1.00 2^3
