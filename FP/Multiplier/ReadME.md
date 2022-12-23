@@ -1,6 +1,4 @@
-# Approximate-CNN
-In this project an approximate CNN is implemented in using an 8 bit floating point representation:
-
+# 8-bit Floating Point Multiplyer
 # FLoating Point Representation : 
 |Sign          |       Mantissa        |   exponent |
 | ---          |        ---            |     ---    |
