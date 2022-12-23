@@ -1,17 +1,13 @@
 # Approximate-CNN
 In this project an approximate CNN is implemented in using an 8 bit floating point representation:
 
-FLoating Point Representation : 
+#FLoating Point Representation : 
 Sign          -       Mantissa        -   exponent
 1b            -         4b            -     3b
 
+X.XXX * X.XXX = XX.XXXXXX
 
-
-X.XXX
-X.XXX
-
-XX.XXXXXX
-Exponent	Case				Exponent binary
+#Exponent	Case				Exponent binary
 000		denormalized 0.XXXX 2^-2 	110
 001		normalized   1.XXXX 2^-2	110
 010		normalized   1.XXXX 2^-1	111
