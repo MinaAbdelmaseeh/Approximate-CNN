@@ -7,16 +7,17 @@ Sign          -       Mantissa        -   exponent
 
 X.XXX * X.XXX = XX.XXXXXX
 
-# Exponent	Case				Exponent binary
-000		denormalized 0.XXXX 2^-2 	110
-001		normalized   1.XXXX 2^-2	110
-010		normalized   1.XXXX 2^-1	111
-011		normalized   1.XXXX 2^0		000
-100		normalized   1.XXXX 2^1		001
-101   normalized   1.XXXX 2^2		010
-110		normalized   1.XXXX 2^3		011
-111		----         1.0000       Inf
-111		------	     1.XXXX       NAN
+#
+|Exponent |	Case	       |Exponent     | binary
+|000	    |	denormalized | 0.XXXX 2^-2 | 	110
+|001    	|	normalized   | 1.XXXX 2^-2 |	110
+|010	    |	normalized   | 1.XXXX 2^-1 |	111
+|011	    |	normalized   | 1.XXXX 2^0  |	000
+|100	    |	normalized   | 1.XXXX 2^1	 |	001
+|101      | normalized   | 1.XXXX 2^2	 |	010
+|110	    |	normalized   | 1.XXXX 2^3	 |	011
+|111	    |	----         | 1.0000      |  Inf
+|111	    |	------	     | 1.XXXX      |  NAN
 
 
 
