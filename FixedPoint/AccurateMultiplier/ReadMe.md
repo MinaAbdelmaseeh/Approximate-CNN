@@ -6,4 +6,4 @@
 ##### These 3 implementations are used to develop an accurate 4bit * 4bit multiplier which is then used to construct an accurate 5bit * 5bit multiplier and an accurate 8bit * 8bit multiplier.
 ###### The testbench for each implementation is also included.
 
-###### By : Mohammed Tarek
+###### By : Mohamed Tarek
