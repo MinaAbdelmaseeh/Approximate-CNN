@@ -6,9 +6,9 @@
 # How to add a library to your project in Vivado
 #### Add/Create design source as normal
 ![](https://github.com/MinaAbdelmaseeh/Approximate-CNN/blob/main/Screenshot%20(50).png)
-#### Add/Create design source as normal
+#### add files (from the  + sign)
 ![](https://github.com/MinaAbdelmaseeh/Approximate-CNN/blob/main/Screenshot%20(51).png)
-#### Add/Create design source as normal
+#### write a library name or select a library that already exists
 ![](https://github.com/MinaAbdelmaseeh/Approximate-CNN/blob/main/Screenshot%20(52).png)
-#### Add/Create design source as normal
+#### Press "ENTER"
 ![](https://github.com/MinaAbdelmaseeh/Approximate-CNN/blob/main/Screenshot%20(53).png)
