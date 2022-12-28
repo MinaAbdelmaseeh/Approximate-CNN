@@ -13,3 +13,8 @@
 ![](https://github.com/MinaAbdelmaseeh/Approximate-CNN/blob/main/Screenshot%20(52).png)
 #### Press "ENTER"
 ![](https://github.com/MinaAbdelmaseeh/Approximate-CNN/blob/main/Screenshot%20(53).png)
+
+# Using the library
+### in order to use the library you do the following
+##### library neural_network;
+##### use neural_network.neural_network_package.all; -- for evert library there's a corresponding package inside it, I named it {library_name}_package
