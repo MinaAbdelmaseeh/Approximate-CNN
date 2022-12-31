@@ -80,8 +80,8 @@ F_normalized <= F_sign & F_mantissa(4 downto 1) & F_exponent when (F_mantissa(5)
                 F_sign & F_mantissa(0) & "000" & (STD_LOGIC_VECTOR(unsigned(F_exponent) + unsigned(Three))) when ((F_mantissa(4 downto 1) = "0001") and (maxNormalization >= Three)) or ((F_mantissa(4 downto 0) = "00001") and (maxNormalization < Four)) else
                 F_sign & "0000" & (STD_LOGIC_VECTOR(unsigned(F_exponent) + unsigned(Four))) when (F_mantissa(4 downto 0) = "00001") and (maxNormalization >= Four);
 -- handling all the cases of the addition including the special cases.         
-F <= "X1111111" when (A_state = "10" or B_state = "10" or (A_state = "01" and B_state = "01" and A_sign /= B_sign)) else
-     "X0000000" when (A_state = "00" and B_state = "00") or (A(6 downto 0) = B(6 downto 0) and A_sign /= B_sign) else
+F <= "11111111" when (A_state = "10" or B_state = "10" or (A_state = "01" and B_state = "01" and A_sign /= B_sign)) else
+     "00000000" when (A_state = "00" and B_state = "00") or (A(6 downto 0) = B(6 downto 0) and A_sign /= B_sign) else
      A when (A_state = "11" and B_state = "00") or (A_state = "01" and (B_state = "00" or B_state = "11")) or (A_state = "01" and B_state = "01" and A_sign = B_sign) else
      B when (A_state = "00" and B_state = "11") or (B_state = "01" and (A_state = "00" or A_state = "11")) else
      F_normalized when (A_state = "11" and B_state = "11");
